@@ -1,0 +1,228 @@
+.header-middle {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    max-width: 1600px;
+    z-index: 9;
+    margin-top: 22px;
+}
+ul#menu-primary li a {
+    padding: 10px 20px;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+	border-bottom: 1px solid #921415;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+ul#menu-primary li a:hover {
+	border-bottom: 1px solid #fff;
+	color:#fff;
+}
+.usp {
+	text-align:center;
+	padding:15px 0;
+}
+.usp img {
+	margin-bottom:10px;
+}
+.about-sec {
+	background:url('../images/bg_03.jpg');
+	background-size:cover;
+	padding:15px 0 30px 0;
+	text-align:center;
+}
+.abt-2 {
+	color:#707070;
+	letter-spacing:2px;
+}
+.blue-btn {
+    background: #33698F;
+    color: #fff;
+    padding: 11px 34px;
+    display: inline-block;
+    border: 1px solid #33698F;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.blue-btn:hover {
+	background:transparent;
+	color:#33698F;
+}
+.loan-sec {
+	padding:30px 0;
+}
+.loan-img {
+    max-width: 472px;
+    margin: auto;
+    margin-right: 0;
+	position: relative;
+}
+.loan-title {
+    background: rgba(221, 56, 56, 0.9);
+    text-align: center;
+    padding: 17px 0 5px 0;
+    position: absolute;
+    width: 100%;
+    max-width: 472px;
+    letter-spacing: 2px;
+	color:#fff;
+}
+p.red-line {
+    color: #dd3838;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.box-line {
+    border: 1px solid #dadada;
+    margin-left: -15px;
+    border-left: none;
+	max-width: 472px;
+}
+.loan-box {
+    padding-top: 30px;
+    height: 272px;
+    padding-left: 15px;
+}
+.red-text {
+	color:#dd3838;
+}
+.su-table.interst {
+	color:#000;
+}
+.su-table.interst table tr.dark-row td {
+    background: #282828 !important;
+    color: #fff;
+}
+.chart-sec {
+	padding-bottom:30px;
+}
+.contact-sec {
+	background:url('../images/bg_11.jpg');
+	background-size:cover;
+	padding:15px 0 30px 0;
+	color:#fff;
+}
+.white-text {
+	color:#fff;
+}
+.wpcf7-form input:not([type="submit"]):not([type="reset"]), .wpcf7-form textarea {
+    width: 100%;
+    margin-bottom: 35px;
+	color: #fff;
+}
+.wpcf7-form select {
+	padding: 7px 0;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.btn.btn-default, .wpcf7-submit {
+    border: 1px solid #33698F;
+    color: #fff;
+    border-radius: 11px;
+    background-color: #33698F;
+    font-size: 12px;
+    padding: 10px 34px;
+    margin-top: 0px;
+	margin-bottom:5px;
+    transition: all 0.3s ease 0s;
+}
+.btn.btn-default:hover, .wpcf7-submit:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e4e4e4;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #e4e4e4;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #e4e4e4;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #e4e4e4;
+}
+div.wpcf7-validation-errors {
+    border: 2px solid #f7e700;
+    clear: both;
+    text-align: center;
+}
+span.wpcf7-not-valid-tip {
+    color: #fcc62d;
+}
+.info-sec {
+	padding:30px 0 0 0;
+}
+.call-1 {
+    font-size: 36px;
+    text-align: right;
+}
+.call-1 i.fa, .info-sec i.fa {
+	color:#DD3737;
+}
+.dark-text {
+	color:#000;
+}
+.max-address {
+	max-width:600px;
+}
+.permit {
+	color:#bbbaba;
+	text-align:center;
+}
+#footer .footer-inner {
+	display:none;
+}
+#colophon {
+    color: #676767;
+    border-top: 1px solid #d0d0d0;
+    font-size: 12px;
+}
+
+@media (max-width: 991px) {
+.max-address {
+	margin:0 auto;
+}
+.loan-title {
+	max-width: 472px;
+}
+.loan-img {
+    margin: 0 auto;
+}
+.box-line {
+    margin-left: 0;
+    border-left: 1px solid #dadada;
+    margin: 0 auto;
+}
+.call-1 {
+    text-align: center;
+}
+.info-sec {
+    text-align: center;
+}
+.su-table.interst {
+    overflow: auto;
+}
+.btn.btn-default, .wpcf7-submit {
+    margin-top: 20px;
+}
+@media (max-width: 540px) {
+.box-line {
+    max-width: initial;
+    display: inline-block;
+	border:none;
+}
+.call-block {
+	display:inline-block;
+}
+}
